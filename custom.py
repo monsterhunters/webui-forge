@@ -53,6 +53,12 @@ def installRoop():
 
 def installDreambooth():
         os.system('https://github.com/d8ahazard/sd_dreambooth_extension.git')
+
+def installAdditionalnetworks():
+        os.system('git clone https://github.com/kohya-ss/sd-webui-additional-networks.git')
+      
+def installMultidiffusion():
+        os.system('git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111.git')
       
 def installExt():
         os.system('git clone https://github.com/aigc-apps/sd-webui-EasyPhoto.git')
@@ -66,12 +72,10 @@ def installExt():
         os.system('git clone https://github.com/zanllp/sd-webui-infinite-image-browsing.git')
         os.system('git clone https://github.com/v8hid/infinite-zoom-automatic1111-webui.git')
         os.system('git clone https://github.com/hako-mikan/sd-webui-regional-prompter.git')
-        os.system('git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111.git')
         os.system('git clone https://github.com/s9roll7/ebsynth_utility.git')
         os.system('git clone https://github.com/fkunn1326/openpose-editor.git')
         os.system('git clone https://github.com/mcmonkeyprojects/sd-dynamic-thresholding.git')
         os.system('git clone https://github.com/Coyote-A/ultimate-upscale-for-automatic1111.git')
-        os.system('git clone https://github.com/kohya-ss/sd-webui-additional-networks.git')
         os.system('git clone https://github.com/thygate/stable-diffusion-webui-depthmap-script.git')
         os.system('git clone https://github.com/DominikDoom/a1111-sd-webui-tagcomplete.git')
       
