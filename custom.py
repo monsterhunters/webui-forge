@@ -59,9 +59,14 @@ def installAdditionalnetworks():
       
 def installMultidiffusion():
         os.system('git clone https://github.com/pkuliyi2015/multidiffusion-upscaler-for-automatic1111.git')
-      
-def installExt():
+
+def layerDiffusion():
+        os.system('git clone https://github.com/layerdiffusion/sd-forge-layerdiffuse.git')
+
+def easyPhoto():
         os.system('git clone https://github.com/aigc-apps/sd-webui-EasyPhoto.git')
+
+def installExt():        
         os.system('git clone https://github.com/Scholar01/sd-webui-mov2mov.git')
         os.system('git clone https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards.git')
         os.system('git clone https://github.com/CiaraStrawberry/TemporalKit')
